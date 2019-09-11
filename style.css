@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 4;
+}
+.form-box {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 300px;
+  box-sizing: border-box;
+  background: rgba(192,192,192);opacity:0.9;;
+}
+body {
+  background-image: url(img/homework.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1100px;
+}
+.input-box {
+  margin: 31px auto;
+  width: 80%;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.input-box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.submit-box {
+  left: -50%;
+}
+
+p {
+  color: black;
+  text-align: right;
+  position: relative;
+  bottom: -550px;
+}
+
+.Bilde {
+  border-color: grey;
+  width: 350px;
+  align-content: flex-start;
+}
+
+.Quote {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
